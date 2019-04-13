@@ -2,11 +2,13 @@
 
 ## Usage
 
-```sh
+```bash
 docker pull jekyll/jekyll
 
 git clone git@github.com:shifumin/jekyll-docker
 cd jekyll-docker
+
+# Edit index.md
 
 # Serve your page locally
 docker-compose up

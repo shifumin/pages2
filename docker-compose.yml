@@ -5,9 +5,5 @@ services:
     command: jekyll serve --watch --force_polling
     volumes:
       - $PWD:/srv/jekyll
-      - bundle_data:/usr/local/bundle
     ports:
       - 4000:4000
-volumes:
-  bundle_data:
-    driver: local
